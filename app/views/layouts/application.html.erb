@@ -11,9 +11,10 @@
   </head>
 
   <body>
-    Notices: <p class="notice"><%= notice %></p>
-    Alerts: <p class="alert"><%= alert %></p>
-
-    <%= yield %>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
