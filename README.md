@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails 7 with Bootstrap 5 and Devise.
 
-Things you may want to cover:
 
-* Ruby version
+### Template setup commands: 
 
-* System dependencies
+* `rails new ...`
+* add gems: gem 'devise', gem 'bootstrap', gem 'sassc-rails'
+* `rails g devise:install`
+* `rails g devise:user`
+* `bin/importmap pin bootstrap`
+* `bundle i`
 
-* Configuration
 
-* Database creation
+### To startup:
 
-* Database initialization
+* `rails db:migrate`
+* `rails s`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
